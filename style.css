@@ -1,0 +1,31 @@
+:root{--teal:#127F8E;--teal2:#14B8A6;--navy:#0F4C81;--bg:#F1F6F6;--card:#fff;--text:#0B2530;--muted:#5A6F78;--line:#DDE7E8}
+@media (prefers-color-scheme:dark){:root{--bg:#0B1416;--card:#13201F;--text:#E8F1F1;--muted:#9DB0B4;--line:#22322F;--teal:#3CC4D2}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--teal)}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:20px;color:var(--text);text-decoration:none}
+.brand img{width:36px;height:36px;border-radius:9px}
+nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-size:15px}
+nav a:hover{color:var(--teal)}
+.hero{background:linear-gradient(140deg,#14B8A6 0%,#13858F 40%,#0F4C81 100%);color:#fff;border-radius:28px;padding:48px 32px;margin:12px 0 28px;text-align:center}
+.hero img{width:96px;height:96px;border-radius:22px;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.hero h1{font-size:44px;letter-spacing:-1px;margin-top:18px}
+.hero p.tag{font-size:21px;font-weight:600;opacity:.95;margin-top:6px}
+.hero p.sub{opacity:.88;margin-top:12px}
+.pill{display:inline-block;margin-top:22px;background:#fff;color:var(--navy);font-weight:600;padding:10px 20px;border-radius:999px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-bottom:32px}
+.card{background:var(--card);border-radius:20px;padding:20px 22px;box-shadow:0 4px 16px rgba(15,76,129,.06)}
+.card .e{font-size:28px}
+.card h3{font-size:18px;margin-top:6px}
+.card p{color:var(--muted);font-size:15px;margin-top:4px}
+h1.page{font-size:34px;letter-spacing:-.5px;margin:20px 0 4px}
+p.updated{color:var(--muted);font-size:14px;margin-bottom:22px}
+section.doc{background:var(--card);border-radius:20px;padding:6px 24px;margin-bottom:28px}
+section.doc h2{font-size:18px;margin-top:20px}
+section.doc p{margin:6px 0 16px;color:var(--text)}
+section.doc h2:first-child{margin-top:18px}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+footer a{color:var(--muted);text-decoration:none;margin-right:14px}
+@media (max-width:520px){.hero h1{font-size:34px}nav a{margin-left:12px;font-size:14px}.hero{padding:36px 20px}}
