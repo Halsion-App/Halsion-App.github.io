@@ -1,4 +1,1 @@
-# Halsion app-ads.txt (https://iabtechlab.com/ads-txt/)
-# Replace pub-0000000000000000 with your AdMob publisher ID (AdMob › Settings › Account information),
-# then remove this comment. AdMob shows the exact line under Apps › View all apps › app-ads.txt.
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-7294239534559100, DIRECT, f08c47fec0942fa0
